@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>inputs</title>
+
+    <style>
+      body {
+        font-family: sans-serif;
+      }
+      label {
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="#" method="get" target="_blank" autocomplete="off">
+      <p>o meu formulario</p>
+      <p>
+        <label for="nome">Nome:</label>
+        <input
+          type="text"
+          id="nome"
+          name="nome"
+          placeholder="seu nome"
+          required
+        />
+      </p>
+
+      <p>
+        <label for="dev">Sou um dev</label>
+        <input type="checkbox" id="dev" value="sim" />
+      </p>
+
+      <p>
+        Genero: <br />
+        <label for="Feminino">Feminino</label>
+        <input type="radio" id="Feminino" value="Feminino" name="Genero" />
+        <br />
+        <label for="Masculino">Masculino</label>
+        <input type="radio" id="Masculino" value="Masculino" name="Genero" />
+        <br />
+        <label for="nao-informar">Não informar</label>
+        <input
+          type="radio"
+          id="nao-informar"
+          value="nao-informar"
+          name="Genero"
+        />
+      </p>
+
+      <p>
+        <label for="date">date</label>
+        <input type="date" id="date" name="date" />
+      </p>
+
+      <p>
+        <label for="datetime-local">Date:</label>
+        <input
+          type="datetime-local"
+          id="date"
+          name="datetime-local"
+          value="2020-04-20T20:00"
+        />
+      </p>
+      <p>
+        <label for="time">time</label>
+        <input type="time" id="time" name="time" value="20:00" />
+      </p>
+
+      <p>
+        <label for="color">Cor preferida</label>
+        <input type="color" id="color" name="color" />
+      </p>
+
+      <p>
+        <label for="email">Seu melhor Email</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="ex: email@email.com"
+        />
+      </p>
+
+      <p>
+        <label for="file">Sua foto</label>
+        <input type="file" id="file" name="file" accept=".png,.svg,image/" />
+      </p>
+
+      <p>
+        <label for="Numero">Seu Numero favorito</label>
+        <input type="number" id="  Numero" name="Numero"
+        placeholder="Digite um Numero" />
+      </p>
+
+      <p>
+        <button type="reset">Reset</button>
+        <button type="submit">Enviar</button>
+      </p>
+    </form>
+  </body>
+</html>
