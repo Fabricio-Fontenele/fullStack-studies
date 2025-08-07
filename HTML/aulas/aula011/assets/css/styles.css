@@ -1,0 +1,15 @@
+.heading {
+  color: red;
+}
+.mian-contente .heading {
+  font-style: italic;
+  color: red;
+}
+
+.pai h1+p{
+  color: red;
+}
+
+.pai p+h1{
+  color: yellow;
+}

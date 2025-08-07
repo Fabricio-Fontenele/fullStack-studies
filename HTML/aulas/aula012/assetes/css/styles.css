@@ -1,0 +1,30 @@
+.heading{
+    transition: all 1s ease-in-out;
+}
+
+.heading:hover{
+    background: red;
+    cursor: pointer;
+}
+
+a{
+    color: red;
+}
+
+a:link{
+    color: deeppink;
+}
+
+a:visited{
+    color: firebrick;
+}
+
+a:active{
+    background: darkgray;
+
+}
+input:focus{
+    box-shadow: 0 0 5px black;
+    outline: none;
+    border: 1px;
+}
